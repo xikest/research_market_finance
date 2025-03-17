@@ -1,0 +1,9 @@
+#1. 0_create_us_stocks_etf_data 실행하여 raw 데이터를 DB로 저장
+#2. 1_make_to_zipline bundle을 실행하여 bundle 데이터로 생성
+
+#3. extension을 .zipline 폴더에 저장
+
+#4. us_etfs와 us_snp500을  가상 환경의 budles에 저장
+예시 path `\mlft310\Lib\site-packages\zipline\data\bundles`
+
+#5  zipline ingest -b us_etfs 실행하여 ingest
